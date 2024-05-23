@@ -1,0 +1,16 @@
+{
+  "name": "lecture-02-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Bhaanoo Vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
