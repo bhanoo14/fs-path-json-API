@@ -1,9 +1,14 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 
 const app = express();
 const port = process.env.PORT || 8000;
+
+// Get the directory name of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Define the products directory path
 const dir = path.join(__dirname, 'products');
